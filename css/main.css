@@ -1,7 +1,42 @@
 body{
 	background-color: #E6E6E6;
 }
-.logo img{
-	width: 200px;
-    border-radius: 55px;
+aside{
+	float: left;
+	width: 32%;
+}
+div.logo{
+	height: 352px;
+	padding: 28px 7% 0 16%;
+}
+div.logo img{
+	width: 100%;
+    border-radius: 16%;
+}
+aside ul {
+	padding: 0;
+	margin: 0;
+}
+aside li.one-list{
+	list-style: none;
+	height: 37px;
+	margin: 0 14% 0 25%;
+	padding: 20px 0;
+	border-top: solid 1px #BCBCB9;
+}
+aside li.one-list-last{
+	border-bottom: solid 1px #BCBCB9;
+}
+aside ul li div.list-sm-menu{
+	font-size: 13px;
+    color: #7a3236;
+    text-align: center;
+}
+aside ul li div.list-bg-menu{
+	text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color: #7a3236;
+    line-height: 15px;
 }

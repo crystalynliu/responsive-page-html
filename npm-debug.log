@@ -1,0 +1,140 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'live-server' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.25
+4 verbose cache add [ 'live-server', null ]
+5 verbose cache add name=undefined spec="live-server" args=["live-server",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'live-server',
+6 verbose parsed url   path: 'live-server',
+6 verbose parsed url   href: 'live-server' }
+7 silly lockFile 9528180e-live-server live-server
+8 verbose lock live-server /home/crystalyn/.npm/9528180e-live-server.lock
+9 silly lockFile 9528180e-live-server live-server
+10 silly lockFile 9528180e-live-server live-server
+11 verbose addNamed [ 'live-server', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 180ee697-live-server live-server@
+14 verbose lock live-server@ /home/crystalyn/.npm/180ee697-live-server.lock
+15 silly addNameRange { name: 'live-server', range: '*', hasData: false }
+16 verbose request where is /live-server
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 8ae0bab076be8832
+19 verbose url raw /live-server
+20 verbose url resolving [ 'https://registry.npmjs.org/', './live-server' ]
+21 verbose url resolved https://registry.npmjs.org/live-server
+22 verbose request where is https://registry.npmjs.org/live-server
+23 info trying registry request attempt 1 at 11:27:30
+24 verbose etag "5E9ESQUOSH64A1R24LBP2037B"
+25 http GET https://registry.npmjs.org/live-server
+26 info retry will retry, error on last attempt: Error: socket hang up
+27 info trying registry request attempt 2 at 11:28:42
+28 verbose etag "5E9ESQUOSH64A1R24LBP2037B"
+29 http GET https://registry.npmjs.org/live-server
+30 info retry will retry, error on last attempt: Error: socket hang up
+31 info trying registry request attempt 3 at 11:30:45
+32 verbose etag "5E9ESQUOSH64A1R24LBP2037B"
+33 http GET https://registry.npmjs.org/live-server
+34 silly registry.get cb [ 304, undefined ]
+35 verbose etag https://registry.npmjs.org/live-server from cache
+36 silly addNameRange number 2 { name: 'live-server', range: '*', hasData: true }
+37 silly addNameRange versions [ 'live-server',
+37 silly addNameRange   [ '0.1.0',
+37 silly addNameRange     '0.1.1',
+37 silly addNameRange     '0.2.0',
+37 silly addNameRange     '0.3.0',
+37 silly addNameRange     '0.4.0',
+37 silly addNameRange     '0.5.0',
+37 silly addNameRange     '0.6.0',
+37 silly addNameRange     '0.6.1',
+37 silly addNameRange     '0.6.2',
+37 silly addNameRange     '0.6.3',
+37 silly addNameRange     '0.6.4',
+37 silly addNameRange     '0.7.0',
+37 silly addNameRange     '0.7.1',
+37 silly addNameRange     '0.8.0',
+37 silly addNameRange     '0.8.1',
+37 silly addNameRange     '0.8.2' ] ]
+38 verbose addNamed [ 'live-server', '0.8.2' ]
+39 verbose addNamed [ '0.8.2', '0.8.2' ]
+40 silly lockFile f17e523f-live-server-0-8-2 live-server@0.8.2
+41 verbose lock live-server@0.8.2 /home/crystalyn/.npm/f17e523f-live-server-0-8-2.lock
+42 silly lockFile f17e523f-live-server-0-8-2 live-server@0.8.2
+43 silly lockFile f17e523f-live-server-0-8-2 live-server@0.8.2
+44 silly lockFile 180ee697-live-server live-server@
+45 silly lockFile 180ee697-live-server live-server@
+46 silly resolved [ { name: 'live-server',
+46 silly resolved     version: '0.8.2',
+46 silly resolved     description: 'simple development http server with live reload capability',
+46 silly resolved     keywords: [ 'front-end', 'development', 'tool', 'server', 'http', 'cli' ],
+46 silly resolved     author: { name: 'Tapio Vierros' },
+46 silly resolved     dependencies:
+46 silly resolved      { colors: 'latest',
+46 silly resolved        connect: '2.x.x',
+46 silly resolved        'event-stream': 'latest',
+46 silly resolved        'faye-websocket': '0.9.x',
+46 silly resolved        'object-assign': '^2.0.0',
+46 silly resolved        opn: 'latest',
+46 silly resolved        send: 'latest',
+46 silly resolved        watchr: '2.3.x' },
+46 silly resolved     scripts: { test: 'jshint *.js; eslint *.js' },
+46 silly resolved     bin: { 'live-server': './live-server.js' },
+46 silly resolved     repository:
+46 silly resolved      { type: 'git',
+46 silly resolved        url: 'git+https://github.com/tapio/live-server.git' },
+46 silly resolved     engines: { node: '>=0.8.0' },
+46 silly resolved     preferGlobal: true,
+46 silly resolved     license: 'MIT',
+46 silly resolved     eslintConfig: { env: [Object], rules: [Object] },
+46 silly resolved     gitHead: '4884f342dc48b4b093a9571bdca03bf664a6160a',
+46 silly resolved     bugs: { url: 'https://github.com/tapio/live-server/issues' },
+46 silly resolved     _id: 'live-server@0.8.2',
+46 silly resolved     _shasum: '3c6a0b05591585866c99c71c4853633bf01944ff',
+46 silly resolved     _from: 'live-server@',
+46 silly resolved     _npmVersion: '1.4.21',
+46 silly resolved     _npmUser: { name: 'tapio', email: 'tapiovierros@gmail.com' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     dist:
+46 silly resolved      { shasum: '3c6a0b05591585866c99c71c4853633bf01944ff',
+46 silly resolved        tarball: 'http://registry.npmjs.org/live-server/-/live-server-0.8.2.tgz' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/live-server/-/live-server-0.8.2.tgz',
+46 silly resolved     readme: 'ERROR: No README data found!',
+46 silly resolved     homepage: 'https://github.com/tapio/live-server#readme' } ]
+47 info install live-server@0.8.2 into /usr/local/lib
+48 info installOne live-server@0.8.2
+49 verbose lib/node_modules/live-server unbuild
+50 verbose lib/node_modules/live-server unbuild
+51 error error rolling back Error: EACCES, unlink '/usr/local/lib/node_modules/live-server'
+51 error error rolling back  live-server@0.8.2 { [Error: EACCES, unlink '/usr/local/lib/node_modules/live-server']
+51 error error rolling back   errno: 3,
+51 error error rolling back   code: 'EACCES',
+51 error error rolling back   path: '/usr/local/lib/node_modules/live-server' }
+52 error Error: EACCES, unlink '/usr/local/lib/node_modules/live-server'
+52 error  { [Error: EACCES, unlink '/usr/local/lib/node_modules/live-server']
+52 error   errno: 3,
+52 error   code: 'EACCES',
+52 error   path: '/usr/local/lib/node_modules/live-server' }
+53 error Please try running this command again as root/Administrator.
+54 error System Linux 3.19.0-15-generic
+55 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "live-server"
+56 error cwd /home/crystalyn/responsiveHtml
+57 error node -v v0.10.25
+58 error npm -v 1.4.21
+59 error path /usr/local/lib/node_modules/live-server
+60 error code EACCES
+61 error errno 3
+62 error stack Error: EACCES, unlink '/usr/local/lib/node_modules/live-server'
+63 verbose exit [ 3, true ]
