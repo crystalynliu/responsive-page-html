@@ -40,3 +40,20 @@ aside ul li div.list-bg-menu{
     color: #7a3236;
     line-height: 15px;
 }
+article{
+	width: 68%;
+	margin-left:32%; 
+	padding-top: 115px;
+}
+article p.title{
+	text-align: center;
+	font-size: 38px;
+	margin-bottom:0; 
+}
+article p.content{
+	padding:0 2% 0 4.6%;
+	line-height: 24px;
+    font-size: 19px;
+    margin-top: 10px;
+    letter-spacing: 0.2px;
+}
