@@ -31,12 +31,12 @@ aside li.one-list{
 aside li.one-list-last{
 	border-bottom: solid 1px #BCBCB9;
 }
-aside ul li div.list-sm-menu{
+ul li div.list-sm-menu{
 	font-size: 13px;
     color: #7a3236;
     text-align: center;
 }
-aside ul li div.list-bg-menu{
+ul li div.list-bg-menu{
 	text-align: center;
     font-size: 18px;
     font-weight: bolder;
@@ -45,9 +45,9 @@ aside ul li div.list-bg-menu{
     line-height: 15px;
 }
 article{
-	width: 68%;
-	margin-left:32%; 
 	padding-top: 115px;
+	width: 68%;
+	margin-left: 32%;
 }
 article p.title{
 	text-align: center;
@@ -61,7 +61,7 @@ article p.content{
     margin-top: 10px;
     letter-spacing: 0.2px;
 }
-article div.decorate{
+div.decorate{
 	padding: 0 3% 0 1%;
 }
 article hr.lf-line{
@@ -79,10 +79,47 @@ article hr.rg-line{
 }
 article ul li.one-sixth{
 	display: inline-block;
-	width: 30%;
-	margin-right: 3%;
+	width: 30.5%;
+	margin-right: 2.5%;
 	height: 291px;
+}
+article ul li.third-list,li.last-list{
+	margin-right: 0;
 }
 article ul li img{
 	width: 100%;
+	border-radius: 4%;
+}
+
+article ul{
+	padding-top: 10px;
+}
+
+div.first-name{
+	margin-top: 17px;
+}
+.footer-lf-line{
+	margin-left: 4%;
+	width: 46%;
+	float: left;
+}
+.footer-rg-line{
+	width: 46%;
+	float: right;
+}
+.second-de{
+	margin-top:37px; 
+	height: 23px;
+}
+footer{
+	margin:10px 0 0 32%;
+	padding-bottom:20px;  
+}
+footer p{
+	text-align: center;
+	margin: 0;
+}
+footer span{
+	color: #7a3236;
+	font-weight: bolder;
 }
