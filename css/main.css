@@ -57,3 +57,19 @@ article p.content{
     margin-top: 10px;
     letter-spacing: 0.2px;
 }
+article div.decorate{
+	padding: 0 3% 0 1%;
+}
+article hr.lf-line{
+	width: 33%;
+    float: left;
+    margin: 17px 3.6%;
+}
+article span{
+	font-size: 29px;
+}
+article hr.rg-line{
+	width: 33%;
+    float: right;
+    margin: 17px 0;
+}
