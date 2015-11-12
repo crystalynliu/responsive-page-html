@@ -1,6 +1,9 @@
 body{
 	background-color: #E6E6E6;
 }
+ul li {
+	list-style: none;
+}
 aside{
 	float: left;
 	width: 32%;
@@ -72,4 +75,13 @@ article hr.rg-line{
 	width: 33%;
     float: right;
     margin: 17px 0;
+}
+article ul li.one-sixth{
+	display: inline-block;
+	width: 30%;
+	margin-right: 3%;
+	height: 291px;
+}
+article ul li img{
+	width: 100%;
 }
