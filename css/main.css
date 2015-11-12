@@ -65,15 +65,15 @@ div.decorate{
 	padding: 0 3% 0 1%;
 }
 article hr.lf-line{
-	width: 33%;
+	width: 31%;
     float: left;
-    margin: 17px 3.6%;
+    margin: 17px 2%;
 }
 article span{
 	font-size: 29px;
 }
 article hr.rg-line{
-	width: 33%;
+	width: 31%;
     float: right;
     margin: 17px 0;
 }
@@ -83,7 +83,7 @@ article ul li.one-sixth{
 	margin-right: 2.5%;
 	height: 291px;
 }
-article ul li.third-list,li.last-list{
+article ul li.third-list,article ul li.last-list{
 	margin-right: 0;
 }
 article ul li img{
