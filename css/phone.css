@@ -1,0 +1,29 @@
+div.logo{
+	height: 117px;
+	position: absolute;
+	clear: both;
+	margin-top: 101px;
+}
+div.decorate div{
+	width: 48%;
+}
+article hr.lf-line{
+	width: 22%;
+}
+article hr.rg-line{
+	width: 22%;
+}
+div.logo img{
+	margin: 0 69%;
+}
+aside{
+	height: 231px;
+}
+aside ul {
+	margin: 0 9%;
+}
+aside li.one-list{
+	float: left;
+	margin: 0 2%;
+	border-bottom: solid 1px #BCBCB9;
+}

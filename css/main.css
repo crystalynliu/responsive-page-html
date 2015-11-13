@@ -45,7 +45,7 @@ ul li div.list-bg-menu{
     line-height: 15px;
 }
 article{
-	padding-top: 115px;
+	padding-top: 1px;
 	width: 68%;
 	margin-left: 32%;
 }
@@ -66,15 +66,16 @@ div.decorate{
 }
 div.decorate div{
 	float: left;
-	width: 27%;
+	width: 30%;
+	text-align: center;
 }
 article hr.lf-line{
 	width: 32%;
     float: left;
-    margin: 17px 2% 17px 4%;
+    margin: 17px 0 17px 4%;
 }
 article span{
-	font-size: 29px;
+	font-size: 26px;
 }
 article hr.rg-line{
 	width: 31%;

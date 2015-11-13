@@ -1,0 +1,29 @@
+aside{
+	clear: both;
+	width:100%;
+}
+div.logo{
+	width: 32%;
+	padding-left:7%; 
+	float: left;
+	height: 289px;
+}
+aside ul{
+	margin-left: 32%;
+	padding-top: 34px;
+}
+article{
+	margin-left: 0;
+	width: 100%;
+	clear: both;
+	padding-top: 10px;
+}
+div.decorate div{
+	text-align: center;
+}
+article ul li.one-sixth{
+	/*height: 350px;*/
+}
+footer{
+	margin-left: 0;
+}
