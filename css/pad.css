@@ -23,6 +23,14 @@ div.decorate div{
 }
 article ul li.one-sixth{
 	/*height: 350px;*/
+	width: 46.5%;
+	height: 375px;
+}
+article ul li.third-list{
+	margin-right:3%; 
+}
+article ul li.second-list,article ul li.four-list,article ul li.last-list{
+	margin-right: 0;
 }
 footer{
 	margin-left: 0;
