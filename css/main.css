@@ -62,10 +62,14 @@ article p.content{
     letter-spacing: 0.2px;
 }
 div.decorate{
-	/*padding: 0 3% 0 1%;*/
+	height: 55px;
+}
+div.decorate div{
+	float: left;
+	width: 27%;
 }
 article hr.lf-line{
-	width: 34%;
+	width: 32%;
     float: left;
     margin: 17px 2% 17px 4%;
 }
@@ -73,14 +77,14 @@ article span{
 	font-size: 29px;
 }
 article hr.rg-line{
-	width: 33%;
-    float: right;
-    margin: 17px 0;
+	width: 31%;
+    float: left;
+    margin: 17px 2% 17px 0;
 }
 article ul li.one-sixth{
 	display: inline-block;
 	width: 30.5%;
-	margin-right: 2.5%;
+	margin-right: 3%;
 	height: 291px;
 }
 article ul li.third-list,article ul li.last-list{
@@ -92,7 +96,9 @@ article ul li img{
 }
 
 article ul{
-	padding-top: 10px;
+	margin-right: 2%;
+	margin-left: 4%;
+	padding-left: 0;
 }
 
 div.first-name{
@@ -100,19 +106,20 @@ div.first-name{
 }
 .footer-lf-line{
 	margin-left: 4%;
-	width: 46%;
+	width: 45%;
 	float: left;
-	margin-top: 12px;
-	margin-right: 0.5%;
+	margin-top: 11px;
+	margin-right: 1.5%;
 }
 .footer-rg-line{
-	width: 46%;
+	width: 45%;
 	float: right;
-	margin-top: 12px;
+	margin-top: 11px;
 }
 .second-de{
 	margin-top:37px; 
 	height: 23px;
+	padding-right: 4%;
 }
 footer{
 	margin:10px 0 0 32%;
