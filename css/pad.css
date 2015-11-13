@@ -32,6 +32,9 @@ article ul li.third-list{
 article ul li.second-list,article ul li.four-list,article ul li.last-list{
 	margin-right: 0;
 }
+article ul li.first-list,article ul li.third-list,article ul li.fifth-list{
+	margin-left: 2%;
+}
 footer{
 	margin-left: 0;
 }
